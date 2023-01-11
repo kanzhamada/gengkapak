@@ -1,0 +1,11 @@
+1-Cukur-40000
+2-Keramas-20000
+3-Vitamin-25000
+4-Pijat Kepala-15000
+5-Pomade-10000
+6-Minyak Rambut-10000
+7-Parfum Rambut-10000
+8-Pewarna Rambut (Semir)-75000
+9-Cukur Jenggot-16000
+10-Rebonding-165000
+11-Cukur (Yang cukur jago)-55000

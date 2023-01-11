@@ -1,0 +1,5 @@
+30-Paket Ganteng Elegant-(Cukur, Keramas, Vitamin)-85000
+31-Paket Ganteng SPECIAL-(Cukur, Keramas, Vitamin, Pijat Kepala)-100000
+32-Paket Ganteng Maksimal-(Cukur(Yang cukur jago), Keramas, Vitamin, Pijat Kepala, Pomade / Minyak Rambut / Parfum Rambut)-125000
+33-Paket Ganteng Keterlaluan-(Cukur(Yang cukur jago), Pewarna Rambut (Semir), Keramas, Vitamin, Pijat Kepala, Pomade)-200000
+34-Paket Ganteng Gak ada obat-(Cukur, Rebonding, Keramas, Vitamin)-250000
