@@ -184,13 +184,55 @@ void EntryPesanan(){
 		
 		printf("Kembali = Rp.%d", pembayaran(cari_bundling(pilih_paket), uang));
 		int ulang = 0;
-		do{
+//		do{
 			fprintf(History, "%d/%d/%d - %s - Paket : %s (Rp.%d) - Bayar : Rp.%d, Kembali Rp.%d\n", tanggal, bulan, tahun, customer_name, bundling[cari_bundling(pilih_paket)].nama, bundling[cari_bundling(pilih_paket)].hargabundling, uang, pembayaran(cari_bundling(pilih_paket), uang));
 			++ulang;
-		} while(ulang <= 100);
+//		} while(ulang <= 100);
 			
 		} else if (milih == 2){
 		TampilServiceJ();
+		int jumlah_custom;
+		printf("Jumlah yang akah dipilih : ");
+		scanf("%d", &jumlah_custom);
+		int arr[jumlah_custom];
+		
+		for(int i = 0; i < jumlah_custom; i++){
+			printf("\nPilih Layanan : ");
+			scanf("%d", &arr[i]);
+			for(int j = 0; j < 15; j++){
+				if(arr[i] == menujenis[j].id_jenis){
+					printf("\n%s, Rp.%d\n", menujenis[j].jenislay, menujenis[j].hargalay);
+				}
+			}
+		}
+		int total;
+		int set = 0;
+		while(set < jumlah_custom){
+			for(int i = 0; i < 15; i++){
+				if(arr[set] == menujenis[i].id_jenis){
+					total += menujenis[i].hargalay;
+					
+				}
+				set++;
+			}
+			
+		}	
+		printf("\nTotal : %d", total);	
+//		printf("\nPilih Layanan : ");
+//		for(int i = 0; i < jumlah_custom-1; i++){
+//			scanf("%d", &arr[i]);
+//		}
+//		for(int i = 0; i < jumlah_custom; i++){
+//			int total;
+//			for(int j = 0; j < 15; j++){
+//				if(arr[i] == menujenis[j].id_jenis){
+//					total += menujenis[j].hargalay;
+//					printf("Total %d", total);
+//				}
+//			}
+//			
+//		}
+		
 	}
 }
 
