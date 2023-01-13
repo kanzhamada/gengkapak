@@ -205,17 +205,16 @@ void EntryPesanan(){
 				}
 			}
 		}
-		int total;
+		int total = 0;
 		int set = 0;
 		while(set < jumlah_custom){
 			for(int i = 0; i < 15; i++){
 				if(arr[set] == menujenis[i].id_jenis){
 					total += menujenis[i].hargalay;
-					
+					set++;
 				}
-				set++;
+				
 			}
-			
 		}	
 		printf("\nTotal : %d", total);	
 //		printf("\nPilih Layanan : ");
